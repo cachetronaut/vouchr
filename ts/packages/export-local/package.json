@@ -1,0 +1,20 @@
+{
+  "name": "@vouchr/export-local",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Internal: local Vouchr export facade over structural sources.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "biome lint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
