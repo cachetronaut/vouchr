@@ -1,5 +1,10 @@
 # Vouchr
 
+<p align="center">
+  <img src="docs/assets/logo.png" alt="Vouchr logo" width="240">
+</p>
+
+
 Portable Vouchr records and local export helpers for agent-fabric runs.
 
 Vouchr is a primitive with TypeScript and Python implementations maintained in one public repository. The shared repo keeps the public contract, fixtures, issues, and release history aligned across languages.
