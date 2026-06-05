@@ -2,9 +2,15 @@
 name = "vouchr"
 version = "0.0.0"
 description = "Portable Vouchr records and local export helpers for agent-fabric runs."
+readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/cachetronaut/vouchr"
+Repository = "https://github.com/cachetronaut/vouchr"
+Issues = "https://github.com/cachetronaut/vouchr/issues"
 
 [build-system]
 requires = ["hatchling"]
